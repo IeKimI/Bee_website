@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bee-website/static/css/main.e8953374.css",
+    "main.js": "/Bee-website/static/js/main.9622cd6a.js",
+    "index.html": "/Bee-website/index.html",
+    "main.e8953374.css.map": "/Bee-website/static/css/main.e8953374.css.map",
+    "main.9622cd6a.js.map": "/Bee-website/static/js/main.9622cd6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8953374.css",
+    "static/js/main.9622cd6a.js"
+  ]
+}
