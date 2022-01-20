@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Bee_website/static/css/main.e8953374.css",
-    "main.js": "/Bee_website/static/js/main.5a24c9aa.js",
+    "main.js": "/Bee_website/static/js/main.263728fd.js",
     "index.html": "/Bee_website/index.html",
     "main.e8953374.css.map": "/Bee_website/static/css/main.e8953374.css.map",
-    "main.5a24c9aa.js.map": "/Bee_website/static/js/main.5a24c9aa.js.map"
+    "main.263728fd.js.map": "/Bee_website/static/js/main.263728fd.js.map"
   },
   "entrypoints": [
     "static/css/main.e8953374.css",
-    "static/js/main.5a24c9aa.js"
+    "static/js/main.263728fd.js"
   ]
 }
