@@ -6,7 +6,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/video/bee_vid1.mp4" autoPlay loop muted />
+      <video src="video/bee_vid1.mp4" autoPlay loop muted />
       <h1>BEE</h1>
       <p>Oahu Urban Garden Center + WPI</p>
       <div className="hero-btns">
