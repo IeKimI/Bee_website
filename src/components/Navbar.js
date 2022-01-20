@@ -37,13 +37,17 @@ function Navbar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/Bee_website/"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/exhibit"
+                to="/Bee_website/exhibit"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -52,7 +56,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/pictures"
+                to="/Bee_website/pictures"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
