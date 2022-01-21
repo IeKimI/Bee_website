@@ -10,34 +10,34 @@ function Cards(props) {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src=""
+              src="image/render2.png"
               text="Lifecycle of Bees"
               label="Exhibit"
-              path="/exhibit"
+              path="/Bee_website/exhibit"
             />
             <CardItem
               src=""
               text="Bee Anatomy"
               label="Exhibit"
-              path="/exhibit"
+              path="/Bee_website/exhibit"
             />
             <CardItem
               src=""
               text="Economic / Agricultural Importance"
               label="Exhibit"
-              path="/exhibit"
+              path="/Bee_website/exhibit"
             />
             <CardItem
               src=""
               text="Mite / Habitat Loss / Africanized Bees"
               label="Exhibit"
-              path="/exhibit"
+              path="/Bee_website/exhibit"
             />
             <CardItem
               src=""
               text="Call to action"
               label="Exhibit"
-              path="/exhibit"
+              path="/Bee_website/exhibit"
             />
           </ul>
         </div>
