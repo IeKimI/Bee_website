@@ -10,26 +10,20 @@ function Cards(props) {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              src=""
+              text="Pollination"
+              label="Exhibit"
+              path="/Bee_website/exhibit"
+            />
+            <CardItem
               src="image/render2.png"
-              text="Lifecycle of Bees"
+              text="Life cycle of honey bees"
               label="Exhibit"
               path="/Bee_website/exhibit"
             />
             <CardItem
               src=""
-              text="Bee Anatomy"
-              label="Exhibit"
-              path="/Bee_website/exhibit"
-            />
-            <CardItem
-              src=""
-              text="Economic / Agricultural Importance"
-              label="Exhibit"
-              path="/Bee_website/exhibit"
-            />
-            <CardItem
-              src=""
-              text="Mite / Habitat Loss / Africanized Bees"
+              text="Decline in pollinator diversity and its impact"
               label="Exhibit"
               path="/Bee_website/exhibit"
             />
