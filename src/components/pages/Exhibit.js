@@ -1,6 +1,12 @@
 import React from "react";
 import "../../App.css";
 
-export default function Exhibit() {
-  return <h1 className="exhibit">EXHIBIT</h1>;
+function Exhibit() {
+  return (
+    <>
+      <Exhibit />
+    </>
+  );
 }
+
+export default Exhibit;
