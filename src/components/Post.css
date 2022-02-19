@@ -1,0 +1,17 @@
+.post-container {
+  background: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  margin: 0 0.5%;
+}
+.heading {
+  height: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 30%;
+  height: 30%;
+}
