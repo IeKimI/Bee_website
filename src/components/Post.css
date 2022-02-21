@@ -7,11 +7,25 @@
 }
 .heading {
   height: 100px;
-  text-align: center;
+  text-align: left;
   display: flex;
   align-items: center;
 }
 .image {
-  width: 30%;
-  height: 30%;
+  max-width: 50vw;
+  max-height: 100vh;
+}
+
+.row {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col {
+  flex: 50%;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
