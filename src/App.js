@@ -15,9 +15,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/Bee_website" exact component={Home} />
-          <Route path="/Bee_website/exhibit" component={Exhibit} />
-          <Route path="/Bee_website/pictures" component={Pictures} />
-          <Route path="/Bee_website/bee-tour" component={BeeTour} />
+          <Route path="/Bee_website/#/exhibit" component={Exhibit} />
+          <Route path="/Bee_website/#/pictures" component={Pictures} />
+          <Route path="/Bee_website/#/bee-tour" component={BeeTour} />
         </Switch>
       </HashRouter>
     </>
