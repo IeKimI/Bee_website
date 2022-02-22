@@ -6,11 +6,12 @@ import Home from "./components/pages/Home";
 import Exhibit from "./components/pages/Exhibit";
 import Pictures from "./components/pages/Pictures";
 import BeeTour from "./components/pages/BeeTour";
+import { HashRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 function App() {
   return (
     <>
-      <Router history={hashHistory}>
+      <HashRouter>
         <Navbar />
         <Switch>
           <Route path="/Bee_website" exact component={Home} />
@@ -18,7 +19,7 @@ function App() {
           <Route path="/Bee_website/pictures" component={Pictures} />
           <Route path="/Bee_website/bee-tour" component={BeeTour} />
         </Switch>
-      </Router>
+      </HashRouter>
     </>
   );
 }
