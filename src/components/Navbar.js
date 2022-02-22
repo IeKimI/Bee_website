@@ -28,11 +28,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link
-            to="/Bee_website/"
-            className="navbar-logo"
-            onClick={closeMobileMenu}
-          >
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             Bee <i className="fab fa-forumbee" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -41,17 +37,13 @@ function Navbar() {
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link
-                to="/Bee_website/"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/Bee_website/exhibit"
+                to="/exhibit"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
@@ -60,7 +52,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/Bee_website/pictures"
+                to="/pictures"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >

@@ -14,10 +14,10 @@ function App() {
       <HashRouter>
         <Navbar />
         <Switch>
-          <Route path="/Bee_website" exact component={Home} />
-          <Route path="/Bee_website/#/exhibit" component={Exhibit} />
-          <Route path="/Bee_website/#/pictures" component={Pictures} />
-          <Route path="/Bee_website/#/bee-tour" component={BeeTour} />
+          <Route path="/" exact component={Home} />
+          <Route path="/exhibit" component={Exhibit} />
+          <Route path="/pictures" component={Pictures} />
+          <Route path="/bee-tour" component={BeeTour} />
         </Switch>
       </HashRouter>
     </>

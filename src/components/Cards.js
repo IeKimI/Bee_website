@@ -19,19 +19,19 @@ function Cards(props) {
               src="image/render2.png"
               text="Life cycle of honey bees"
               label="Exhibit"
-              path="/Bee_website/exhibit"
+              path="/exhibit"
             />
             <CardItem
               src=""
               text="Decline in pollinator diversity and its impact"
               label="Exhibit"
-              path="/Bee_website/exhibit"
+              path="/exhibit"
             />
             <CardItem
               src=""
               text="Call to action"
               label="Exhibit"
-              path="/Bee_website/exhibit"
+              path="/exhibit"
             />
           </ul>
         </div>
