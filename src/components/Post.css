@@ -5,6 +5,7 @@
   padding: 1%;
   margin: 0 0.5%;
 }
+
 .heading {
   height: 100px;
   text-align: left;
@@ -20,6 +21,12 @@
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+@media (max-width: 640px) {
+  .row {
+    display: grid;
+  }
 }
 
 .col {

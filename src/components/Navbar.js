@@ -28,7 +28,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <Link
+            to="/Bee_website/"
+            className="navbar-logo"
+            onClick={closeMobileMenu}
+          >
             Bee <i className="fab fa-forumbee" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>

@@ -109,7 +109,7 @@ const Posts = () => {
         </>
       ),
       author: "WPI Bee Team",
-      imgUrl: "image/pollination1.png",
+      imgList: ["image/pollination1.png","image/pollination1.png"],
     },
     {
       title: "Life cycle of bees",
@@ -184,7 +184,7 @@ const Posts = () => {
         </>
       ),
       author: "WPI Bee Team",
-      imgUrl: "image/lifecycle1.png",
+      imgList: ["image/lifecycle1.png"],
     },
     {
       title: "Decline in pollinator diversity and its impact",
@@ -200,7 +200,7 @@ const Posts = () => {
         </>
       ),
       author: "Monu Kr",
-      imgUrl: "image/decline1.png",
+      imgList: ["image/decline1.png"],
     },
     {
       title: "Call to action",
@@ -217,7 +217,7 @@ const Posts = () => {
         </>
       ),
       author: "Sonu Kr",
-      imgUrl: "image/brochure1.png",
+      imgList: ["image/brochure1.png"],
     },
   ];
 

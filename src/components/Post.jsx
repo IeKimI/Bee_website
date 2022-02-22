@@ -1,6 +1,7 @@
 import React from "react";
 import "./Post.css";
-const Post = ({ post: { title, body, imgUrl, author }, index }) => {
+
+const Post = ({ post: { title, body, imgList, author }, index }) => {
   // return (
   //   <div className="post-container">
   //     <img className="image" src={imgUrl} alt="post" />
@@ -15,7 +16,9 @@ const Post = ({ post: { title, body, imgUrl, author }, index }) => {
     return (
       <div className="row">
         <div className="col">
-          <img className="image" src={imgUrl} alt="post" />
+          {imgList.map((imgUrl, index) => {
+             return <img key={index} src={imgUrl}  />
+          })}
         </div>
         <div className="col">
           <div className="text">
@@ -41,7 +44,9 @@ const Post = ({ post: { title, body, imgUrl, author }, index }) => {
           </div>
         </div>
         <div className="col">
-          <img className="image" src={imgUrl} alt="post" />
+        {imgList.map((imgUrl, index) => {
+             return <img key={index} src={imgUrl}  />
+          })}
         </div>
       </div>
     );
