@@ -13,7 +13,7 @@ function Cards(props) {
               src=""
               text="Pollination"
               label="Exhibit"
-              path="/Bee_website/exhibit"
+              path="/exhibit"
             />
             <CardItem
               src="image/render2.png"
