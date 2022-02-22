@@ -10,7 +10,7 @@ import BeeTour from "./components/pages/BeeTour";
 function App() {
   return (
     <>
-      <Router>
+      <Router history={hashHistory}>
         <Navbar />
         <Switch>
           <Route path="/Bee_website" exact component={Home} />
