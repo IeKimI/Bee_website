@@ -45,7 +45,7 @@ const Post = ({ post: { title, body, imgList, author }, index }) => {
         </div>
         <div className="col">
         {imgList.map((imgUrl, index) => {
-             return <img key={index} src={imgUrl}  />
+             return <img className="image" key={index} src={imgUrl}  />
           })}
         </div>
       </div>

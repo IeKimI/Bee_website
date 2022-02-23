@@ -190,16 +190,53 @@ const Posts = () => {
       title: "Decline in pollinator diversity and its impact",
       body: (
         <>
-          <p>
-            The word Algorithm means “a process or set of rules to be followed
-            in calculations or other problem-solving operations”. Therefore
-            Algorithm refers to a set of rules/instructions that step-by-step
-            define how a work is to be executed upon in order to get the
-            expected results.
-          </p>
+        <h3>Declines</h3>
+        <ul>
+            <li>Pollinator biodiversity is declining globally at alarming rates: more than 40% of pollinator species are classified as highly threatened (Kopec & Burd, 2017).</li>
+            <li>
+            The number of European honey bee colonies decreased by 25% over 20 years in Europe and 59% over 58 years in North America.</li>
+            <li>1 in every 4 species of bee in the United States is at risk of extinction.</li>
+          </ul>
+
+          <h3>Human Impact</h3>
+        <ul>
+            <li>Human impact like urbanization and agricultural land expansions lead to habitat degradation, meaning a reduction in the bee habitat, like floral and nesting resources (Potts et al., 2010). 
+</li>
+            <li>
+            Habitat loss affects Hawaiian native bees especially, since they prefer to live in uninhabited areas and along shorelines.</li>
+            <li>Pesticides used in agricultural areas are highly toxic to bees.</li>
+            <li>Herbicides used to kill weeds also kill plants that provide forage to bees.</li>
+            <li>Climate change affects bee life cycles
+            <ul>
+              <li>“As average monthly temperatures rise, flowers bloom earlier in the spring, creating a potential mismatch in seasonal timing between when flowers produce pollen and when bees are ready to feed on that pollen.” (Conservation.org)</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Invasive Species</h3>
+        <ul>
+            <li>One of the biggest factors affecting European honey bees is the Varroa destructor mite.
+            <ul>
+              <li>It is an external parasitic mite which reproduces in honeybee colonies.</li>
+              <li>The mite has spread throughout the world. Only a few places still exist without the mite, such as Maui and Kauai.</li>
+              <li>The mite spreads viruses such as the Deformed Wing Virus (DWV). Honeybees infected with DWV have shrunken, damaged wings, and often other deformities. They generally live for less than 48 hours.</li>
+              <li>The queen can also be infected with DWV and can spread it throughout the hive, destroying it from the inside.</li>
+              </ul>
+ </li>
+          </ul>
+
+          <h3>Effects </h3>
+        <ul>
+            <li>Without bees we will lose agricultural benefits. </li>
+            <li>These declines carry serious ecological and evolutionary implications for plants, food webs, and ecosystem functions (Vanbergen et al., 2013).</li>
+            <li>Complete pollinator loss has been measured to translate into a 12% loss of all fruit and a 6% loss of all vegetables globally (Potts et al., 2010).</li>
+            <li>In terms of global economic value, pollinator services deliver 173 billion USD annually (Potts, et al., 2010) and 13 billion are delivered to US agriculture alone (Potts et al., 2010).</li>
+            <li>The queen bee production in Hawai‘i is currently estimated to be worth around $10 million a year (Hawai‘i Apiary Program Info, 2016);</li>
+          </ul>
+
         </>
       ),
-      author: "Monu Kr",
+      author: "WPI Bee Team",
       imgList: ["image/decline1.png"],
     },
     {
