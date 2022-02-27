@@ -11,97 +11,69 @@ const Posts = () => {
         <>
            <h2>What is pollination?</h2>
           <ul>
-            <li>The essential part of plant reproduction</li>
+            <li>Pollination is the process of fertilizing a plant, an essential part of plant reproduction. Pollen from the anthers (male part of the flower) is transferred to the stigma (female part).</li>
             <li>
-              Pollen from the male part of the plant rubs or drops onto a
-              pollinator, the pollinator then takes it to another flower where
-              the pollen sticks to the female part of the plant. Fertilizes the
-              plant.
+            When a plant gets fertilized, it produces fruit or seeds. Most plants can self-pollinate, meaning pollen from the same flower moves from the male part to the female part. 
             </li>
+            <li>If the plant instead is fertilized by pollen from another flower of the same species, known as cross-fertilization, it will produce more fruit or seeds.</li>
+            <li>This is where pollinators come in! Insect pollinators such as bees transfer pollen between flowers as they visit them.</li>
+            <li>Pollen from the male part of the plant rubs or drops onto the bee, the bee then takes it to another flower where the pollen sticks to the female part of the plant, fertilizing it.</li>
           </ul>
           <h2>Why is pollination important?</h2>
           <ul>
-            <li>It helps maintain the ecosystem.</li>
-            <li>One in three bites of food eaten depends on pollinators.</li>
+            <li>Pollination is how plants create seeds to reproduce. Pollinators enable this process for many plants!</li>
+            <li>One in three bites of food eaten depends on pollinators. What foods? Almonds, Macadamia Nuts, Apples, Peaches, Pears, Tomatoes, Raspberries, and lots more!</li>
           </ul>
          
-          <h2>When does pollination happen?</h2>
-          <ul>
-            <li>Happens year round </li>
-            <ul>
+          <h2>When does pollination happen? Pollination is a year round process!</h2>
+          <ul>          
               <li>
-                <strong>Spring:</strong> pollinators need early blooming plants
+                <strong>Spring:</strong> Early blooming plants provide food to pollinators after the winter. Bulbs, some fruit trees, and some ephemerals (flowers that live for a short time) bloom in the spring and are visited by pollinators.
               </li>
               <li>
-                <strong>Summer:</strong> peak blooming when pollinators reach
-                peak populations.
+                <strong>Summer:</strong> Flowers reach their peak bloom during the summer. The long days give pollinators plenty of time to visit many flowers.
               </li>
               <li>
-                <strong>Fall:</strong> late blooming plants for pollinators
-                before pollinators
+                <strong>Fall:</strong> Plants blooming late in the season help pollinators stock up on food before they either hibernate, or in the case of monarchs and hummingbirds, migrate south.
               </li>
               <li>
-                <strong>Winter:</strong> leave decaying plants alone
+                <strong>Winter:</strong>  Leave decaying plants alone! Pollinators are still living in the garden, maybe using those plants for shelter until the spring.
               </li>
-            </ul>
-          </ul>
-          <h2>Where do pollinators live?</h2>
-          <ul>
-            <li>
-              Bees can use mud, sand, plant resins and abandoned snail shells as
-              nests.
-            </li>
-            <li>
-              Pollinators' habitats need to be within easy range for food and
-              clean shallow water.
-            </li>
+            
           </ul>
           <h2>Who pollinates?</h2>
           <ul>
             <li>
-              Plants and pollinators evolved side by side for millions of years.
+            Plants and pollinators evolved side by side for millions of years. Insect pollination is an extremely old and successful partnership between plants and insects.
             </li>
             <li>
-              Plants have developed many complex ways of attracting pollinators.
+            Plants have developed many complex ways of attracting pollinators.
             </li>
             <ul>
               <li>
-                Similarity pollinators evolved to specialized physical traits
-                and behaviors that enhanced their pollination efforts.
+              Similarly, pollinators evolved specialized physical traits and behaviors that help them pollinate more effectively.
               </li>
               <ul>
                 <li>
-                  <strong>Bees:</strong> Flower nectar provides fuel. Pollen provides protein and
-                  amino acids.
+                  <strong>Bees:</strong> Nectar from flowers provides energy in the form of sugars, along with vitamins and nutrients. Pollen provides protein, fats and amino acids. 
                 </li>
                 <li>
-                  <strong>Beetles:</strong> They are “mess and soil” pollinators. They stumble
-                  though blossoms for food. Most frequently look for magnolias
-                  and flowers close to the ground
+                  <strong>Beetles:</strong> They are “mess and soil” pollinators. They stumble though blossoms for food. Most frequently look for magnolias and flowers close to the ground .
                 </li>
                 <li>
-                  <strong>Butterflies:</strong> visit flowers with flared petals that lead to
-                  narrow throats that conceal nectar. They use their long
-                  proboscis to reach the nectar.
+                  <strong>Butterflies:</strong> They visit flowers with flared petals that lead to narrow throats that conceal nectar. They use their long proboscis to reach the nectar. 
                 </li>
                 <li>
-                  <strong>Flies:</strong> act opposite to bees who visit sweet-smelling flowers.
-                  They are attracted to flowers with rotting odors, meat-like
-                  color, or fur-like texture. This is why they are attracted to
-                  dead animals and poop.
+                  <strong>Flies:</strong> They usually act opposite to bees who visit sweet-smelling flowers. They are attracted to flowers with rotting odors, meat-like color, or fur-like texture. This is why they are attracted to dead animals and poop.
                 </li>
                 <li>
-                  <strong>Hummingbirds:</strong> uses its long thin bill and tongue to reach the
-                  nectar hidden deep in the tubular flowers.
+                  <strong>Hummingbirds:</strong> They use their long thin bill and tongue to reach the nectar hidden deep in the tubular flowers. 
                 </li>
                 <li>
-                  <strong>Moths:</strong> outnumber butterflies 10 to 1. Most active at night.
-                  Night blooming flowers have a sweet scent and white or cream
-                  color blossom.
+                  <strong>Moths:</strong> They outnumber butterflies 10 to 1. Most active at night. Night blooming flowers have a sweet scent and white or cream color blossom. 
                 </li>
                 <li>
-                  <strong>Wind:</strong> pollinate grains mostly nuts and trees that blows the
-                  pollen plant to plant
+                  <strong>Wind:</strong> Many plants are wind pollinated. Gusts blow pollen grains to where they stick on other flowers.
                 </li>
               </ul>
             </ul>
@@ -109,7 +81,7 @@ const Posts = () => {
         </>
       ),
       author: "WPI Bee Team",
-      imgList: ["image/pollination1.png","image/pollination2.png"],
+      imgList: ["image/pollination.png","image/pollination2.png"],
     },
     {
       title: "Life cycle of bees",
@@ -178,13 +150,13 @@ const Posts = () => {
             </li>
           </ul>
 
-          <p>Source: https://entnemdept.ufl.edu/creatures/misc/BEES/euro_honey_bee.htm</p>
+          <p>Source: https://entnemdept.ufl.edu/creatures/misc/BEES/euro_honey_bee.htm, https://pixabay.com/vectors/bees-insects-flowers-pollination-5617763/, https://www.flickr.com/photos/ruthanddave/7644778388</p>
 
        
         </>
       ),
       author: "WPI Bee Team",
-      imgList: ["image/lifecycle1.png"],
+      imgList: ["image/lifecycle.png"],
     },
     {
       title: "Decline in pollinator diversity and its impact",
