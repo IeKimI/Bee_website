@@ -7,7 +7,6 @@
 }
 
 .heading {
-  height: 100px;
   text-align: left;
   display: flex;
   align-items: center;
@@ -27,7 +26,8 @@
   .row {
     display: grid;
   }
-  .col {
+  .col,
+  .text {
     max-width: 90vw;
   }
 }

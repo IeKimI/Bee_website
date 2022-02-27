@@ -109,7 +109,7 @@ const Posts = () => {
         </>
       ),
       author: "WPI Bee Team",
-      imgList: ["image/pollination1.png","image/pollination1.png"],
+      imgList: ["image/pollination1.png","image/pollination2.png"],
     },
     {
       title: "Life cycle of bees",
