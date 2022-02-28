@@ -5,10 +5,10 @@ import Post from "./Post";
 const Posts = () => {
   const blogPosts = [
     {
-      name:"pollination",
       title: "Pollination",
       body: (
         <>
+        <a id = "pollination" data-hs-anchor="true">
            <h2>What is pollination?</h2>
           <ul>
             <li>Pollination is the process of fertilizing a plant, an essential part of plant reproduction. Pollen from the anthers (male part of the flower) is transferred to the stigma (female part).</li>
@@ -78,6 +78,7 @@ const Posts = () => {
               </ul>
             </ul>
           </ul>
+          </a>
         </>
       ),
       author: "WPI Bee Team",
@@ -216,12 +217,7 @@ const Posts = () => {
       body: (
         <>
           <p>
-            An interconnection of multiple devices, also known as hosts, that
-            are connected using multiple paths for the purpose of sending/
-            receiving data media. Computer networks can also include multiple
-            devices/mediums which help in the communication between two
-            different devices; these are known as Network devices and include
-            things such as routers, switches, hubs, and bridges.
+            The brochure on the left 
           </p>
         </>
       ),

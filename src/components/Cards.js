@@ -14,24 +14,28 @@ function Cards(props) {
               text="Pollination"
               label="Exhibit"
               path="/exhibit"
+              hash="#pollination"
             />
             <CardItem
-              src="image/render2.png"
+              src="image/lifecycle.png"
               text="Life cycle of honey bees"
               label="Exhibit"
               path="/exhibit"
+              hash=""
             />
             <CardItem
               src=""
               text="Decline in pollinator diversity and its impact"
               label="Exhibit"
               path="/exhibit"
+              hash=""
             />
             <CardItem
-              src=""
+              src="image/brochure1.png"
               text="Call to action"
               label="Exhibit"
               path="/exhibit"
+              hash=""
             />
           </ul>
         </div>
