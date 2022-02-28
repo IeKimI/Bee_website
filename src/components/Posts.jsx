@@ -224,7 +224,7 @@ const Posts = () => {
         </>
       ),
       author: "WPI Bee Team",
-      imgList: ["image/brochure1.png"],
+      imgList: ["image/brochure.png"],
     },
   ];
 
