@@ -5,11 +5,11 @@ import Post from "./Post";
 const Posts = () => {
   const blogPosts = [
     {
-      title: "Pollination",
+      title: (<a id="pollination" data-hs-anchor="true">
+      <h1>Pollination</h1></a>),
       body: (
         <>
-        <a id = "pollination" data-hs-anchor="true">
-           <h2>What is pollination?</h2>
+        <h2>What is pollination?</h2>
           <ul>
             <li>Pollination is the process of fertilizing a plant, an essential part of plant reproduction. Pollen from the anthers (male part of the flower) is transferred to the stigma (female part).</li>
             <li>
@@ -78,14 +78,14 @@ const Posts = () => {
               </ul>
             </ul>
           </ul>
-          </a>
         </>
       ),
       author: "WPI Bee Team",
       imgList: ["image/pollination.png","image/pollination2.png"],
     },
     {
-      title: "Life cycle of bees",
+      title: (<a id="lifecycle" data-hs-anchor="true">
+      <h1>Life cycle of bees</h1></a>),
       body: (
         <>
         <h2>Life Cycle of a Honey Bee (Four Stages)</h2>
@@ -160,7 +160,8 @@ const Posts = () => {
       imgList: ["image/lifecycle.png"],
     },
     {
-      title: "Decline in pollinator diversity and its impact",
+      title: (<a id="decline" data-hs-anchor="true">
+      <h1>Decline in pollinator diversity and its impact</h1></a>),
       body: (
         <>
         <h3>Declines</h3>
@@ -210,18 +211,19 @@ const Posts = () => {
         </>
       ),
       author: "WPI Bee Team",
-      imgList: ["image/decline1.png"],
+      imgList: ["image/decline.jpg"],
     },
     {
-      title: "Call to action",
+      title: (<a id="action" data-hs-anchor="true">
+      <h1>Call to action</h1></a>),
       body: (
         <>
           <p>
-            The brochure on the left 
+            Visit our exhibit at OUGC and get a brochure with instructions on make your own pollinator garden. Seeds are included!
           </p>
         </>
       ),
-      author: "Sonu Kr",
+      author: "WPI Bee Team",
       imgList: ["image/brochure1.png"],
     },
   ];
