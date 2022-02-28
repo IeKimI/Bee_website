@@ -22,7 +22,7 @@ function Cards(props) {
               path="./exhibit#lifecycle"
             />
             <CardItem
-              src=""
+              src="image/decline.jpg"
               text="Decline in pollinator diversity and its impact"
               label="Exhibit"
               path="./exhibit#decline"
